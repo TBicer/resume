@@ -1,38 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TBicer</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">COLOR</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about-page">About</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="services-page">Services</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <script src="index.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <h1>Tunay Biçer</h1>
+      <img
+        src="tunay.jpg"
+        alt="Hava durumu sunumu yapan takım elbiseli erkek"
+      />
+      <nav>
+        <a href="https://tr.linkedin.com/">
+          <span>LinkedIn'e</span>
+          Git
+        </a>
+        <a href="about.html" target="_blank">Hakkında</a>
+        <a href="hobbies.html">Hobi</a>
+        <a href="contact.html">İletişim</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h3>BilgeAdam <em>Front-End Dev</em> Öğrencisi</h3>
+        <p>
+          Merhaba Ben Tunay Biçer, Tekrom Teknoloji şirketinde İngilizce Yazılım
+          Destek Uzmanı olarak çalışıyorum. Yeni umutlar ve düşüncelerim ile
+          Front-End dünyasına giriş yapıyorum.
+        </p>
+      </article>
+    </main>
+    <hr />
+    <section>
+      <h3>Eğitimlerim</h3>
+      <ul>
+        <li>2012-2016 Erciyes</li>
+        <li>2020-2023 Anadolu</li>
+      </ul>
+    </section>
+    <hr />
+    <h3>İş Deneyimlerim</h3>
+    <table>
+      <thead style="position: sticky">
+        <tr>
+          <th>
+            Yıllar
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="9"
+              viewBox="0 0 21 9"
+            >
+              <path d="m14.5 5-4 4-4-4zm0-1-4-4-4 4z" />
+            </svg>
+          </th>
+          <th>
+            Deneyimler
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="9"
+              viewBox="0 0 21 9"
+            >
+              <path d="m14.5 5-4 4-4-4zm0-1-4-4-4 4z" />
+            </svg>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2016-2018</td>
+          <td>E-Ticaret Yöneticisi</td>
+        </tr>
+        <tr>
+          <td>2021-2023</td>
+          <td>İngilizce Yazılım Destek Uzmanı</td>
+        </tr>
+      </tbody>
+    </table>
+    <footer>
+      <h2>&#9731; Snowman Productions <sup>&reg;</sup></h2>
+    </footer>
+  </body>
 </html>

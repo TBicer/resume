@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      td,
+      th {
+        border: 1px solid black;
+        padding: 12px;
+      }
+      .bigger {
+        font-size: 32px;
+      }
+      input {
+        padding: 5px;
+      }
+      button {
+        width: 100%;
+        padding: 5px;
+        border-radius: 0px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>İletişim Bilgilerim</h1>
+    <ul>
+      <li>Adres: Nuripaşa Mahallesi 11/2 Sokak Zeytinburnu/İstanbul</li>
+      <li>Telefon: <a href="tel:+90 555 456 1232">+90 555 456 1232</a></li>
+      <li>
+        E-Posta:
+        <a href="mailto:tunaybicer99@gmail.com">tunaybicer99@gmail.com</a>
+      </li>
+    </ul>
+    <a href="index.html">Anasayfa</a>
+    <hr />
+    <form action="mailto:tunaybicer99@gmail.com">
+      <table>
+        <tr>
+          <td><label for="username">Your Name:</label></td>
+          <td>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              min="3"
+              max="40"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Your Email:</label></td>
+          <td><input type="email" name="email" id="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="message">Your Message:</label></td>
+          <td>
+            <textarea
+              minlength="15"
+              maxlength="300"
+              name="message"
+              id="message"
+              cols="21"
+              rows="10"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><button>Submit</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
