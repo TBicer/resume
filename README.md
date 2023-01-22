@@ -1,3 +1,2 @@
-# tbicer.github.io
-[Go to My Website](https://tbicer.github.io/)
-
+# My Resume Website
+[Go to My Website](https://tbicer.com/)
